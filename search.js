@@ -53,7 +53,7 @@ const createCard = (index, logo, name, coinId) => {
 
   const moreDetails = document.createElement("a");
   moreDetails.innerText = "More Details";
-  moreDetails.href = "./detail.html?id=" + coinId;
+  moreDetails.href = "./details.html?id=" + coinId;
 
   cardContainer.appendChild(Index);
   cardContainer.appendChild(img);
